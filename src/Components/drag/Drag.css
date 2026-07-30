@@ -1,0 +1,40 @@
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 99; /* Ensure it appears above other elements */
+  background-color: #1182df;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  width: 150px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.cursor-text {
+  width: 100px;
+  white-space: nowrap;
+  font-size: 14px;
+  display: inline-block;
+  animation: scrollText 5s linear infinite;
+  animation-delay: -10ms;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  75% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

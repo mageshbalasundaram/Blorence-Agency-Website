@@ -1,0 +1,15 @@
+/* Flipwords.css */
+
+.flip-container {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.flip-word {
+  display: inline-block;
+}
+
+.char {
+  display: inline-block;
+  opacity: 0;
+}

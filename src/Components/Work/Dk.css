@@ -1,0 +1,522 @@
+.portfolio-work-container {
+  background: #e8fec7;
+  color: #f0c85b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.portfolio-work-container-hero-text {
+  position: sticky;
+
+  top: 0;
+  background: #e8fec7;
+  color: #000000;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 20px;
+}
+
+.portfolio-work-container-hero-text h1 {
+  font-size: 10rem;
+  line-height: 10rem;
+  padding-left: 4rem;
+}
+
+.portfolio-work-container-hero-text h6 {
+  padding-left: 4rem;
+  font-size: 1rem;
+}
+
+.portfolio-work-container-hero-text p {
+  padding-left: 4rem;
+  font-size: 1.8rem;
+  width: 100%;
+  padding-right: 4rem;
+}
+
+.portfolio-work-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #05070f;
+  color: #ffffff;
+  z-index: 10;
+  border-radius: 50px;
+}
+
+.portfolio-work-container-hero-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.portfolio-work-container-hero-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.portfolio-work-detail {
+  width: 100%;
+}
+
+.portfolio-work-detail p {
+  padding: 50px;
+}
+
+.portfolio-work-detail-text {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.portfolio-work-detail-text h5 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  width: 80%;
+  padding-left: 50px;
+}
+
+.portfolio-work-detail-text p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  width: 80%;
+}
+
+.portfolio-work-detail-image {
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 50px;
+  margin: 50px;
+}
+
+.b-card {
+  border-radius: 0px 0px 50px 50px;
+}
+
+.portfolio-work-detail-video {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 50px 0px;
+}
+
+.portfolio-work-detail-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.portfolio-work-detail-google-text {
+  margin: 50px 0px;
+}
+
+.portfolio-work-detail-google-image {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.portfolio-work-detail-google-image img {
+  border-radius: 50px;
+}
+.portfolio-work-detail-google-image video {
+  border-radius: 50px;
+}
+
+.portfolio-work-detail-google-text p {
+  width: 80%;
+  font-size: 2.5rem;
+}
+.portfolio-work-detail-google-image p {
+  width: 80%;
+  font-size: 2.5rem;
+}
+
+.portfolio-work-detail-web-text {
+  margin: 50px 0px;
+}
+
+.portfolio-work-detail-web-text p {
+  width: 80%;
+  font-size: 2.5rem;
+}
+
+.portfolio-work-detail-web-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  flex-direction: column;
+}
+
+/* Custom scrollbar styles */
+
+/* WebKit-based browsers */
+
+.scrollContainer::-webkit-scrollbar {
+  height: 20px;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background: #fff3ab; /* Background of the scrollbar track */
+  border-radius: 10px;
+}
+
+.scrollContainer::-webkit-scrollbar-corner {
+  width: 10px;
+}
+.scrollContainer::-webkit-scrollbar-track-piece {
+  background: linear-gradient(to right, #650000, #9c2c2d, #f0c85b, #e8fec7);
+  border-radius: 10px;
+}
+.scrollContainer::-webkit-scrollbar-thumb {
+  background: #9c2c2d; /* Color of the scrollbar thumb */
+  border-radius: 10px;
+  border: 3px solid #fff3ab; /* Space around the thumb */
+}
+
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+  background: #650000; /* Color when hovering over the scrollbar thumb */
+}
+
+.scrollContainer2::-webkit-scrollbar {
+  height: 20px;
+}
+
+.scrollContainer2::-webkit-scrollbar-track {
+  background: #9cb677; /* Background of the scrollbar track */
+  border-radius: 10px;
+}
+
+.scrollContainer2::-webkit-scrollbar-corner {
+  width: 10px;
+}
+.scrollContainer2::-webkit-scrollbar-track-piece {
+  background: linear-gradient(to right, #2f4828, #9cb677, #4b684a);
+  border-radius: 10px;
+}
+.scrollContainer2::-webkit-scrollbar-thumb {
+  background: #2f4828; /* Color of the scrollbar thumb */
+  border-radius: 10px;
+  border: 3px solid #9cb677; /* Space around the thumb */
+}
+
+.scrollContainer2::-webkit-scrollbar-thumb:hover {
+  background: #2f4828; /* Color when hovering over the scrollbar thumb */
+}
+
+@media only screen and (max-width: 1024px) {
+  .portfolio-work-container-hero-text {
+    height: 60vh;
+    justify-content: center;
+  }
+
+  .portfolio-work-container-hero-text h1 {
+    font-size: 6rem;
+    line-height: 5rem;
+    padding-left: 1rem;
+  }
+
+  .portfolio-work-container-hero-text h6 {
+    padding-left: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .portfolio-work-container-hero-text p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .portfolio-work-container-main {
+    border-radius: 30px;
+  }
+
+  .portfolio-work-container-hero-video {
+    border-radius: 30px 3% 0px 0px;
+  }
+
+  .portfolio-work-container-hero-video video {
+    border-radius: 30px 30px 0px 0px;
+  }
+  .portfolio-work-detail-text h5 {
+    font-size: 2rem;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .portfolio-work-detail-text p {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .portfolio-work-container-main p {
+    padding: 20px;
+  }
+
+  .portfolio-work-detail-image {
+    margin: 20px;
+    border-radius: 30px;
+  }
+
+  .portfolio-work-detail-video {
+    margin: 20px;
+    border-radius: 30px;
+  }
+
+  .b-card {
+    border-radius: 0px 0px 30px 30px;
+  }
+  .portfolio-work-detail-google-text p,
+  .portfolio-work-detail-google-image p,
+  .portfolio-work-detail-web-text p {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .portfolio-work-detail-google-image {
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .portfolio-work-detail-google-image img {
+    border-radius: 30px;
+  }
+  .portfolio-work-detail-web-vedio video {
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .scrollContainer::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .scrollContainer2::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .portfolio-work-container-hero-text {
+    height: 60vh;
+    justify-content: center;
+  }
+
+  .portfolio-work-container-hero-text h1 {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    padding-left: 1rem;
+  }
+
+  .portfolio-work-container-hero-text h6 {
+    padding-left: 1rem;
+    font-size: 0.5rem;
+  }
+
+  .portfolio-work-container-hero-text p {
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
+  .portfolio-work-container {
+    border-radius: 20px;
+  }
+
+  .portfolio-work-container-main p {
+    padding: 10px;
+  }
+
+  .portfolio-work-detail-image {
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+  .portfolio-work-detail-video {
+    margin: 10px;
+    border-radius: 20px;
+  }
+
+  .portfolio-work-detail-text h5 {
+    font-size: 1.2rem;
+    width: 100%;
+    padding-left: 10px;
+  }
+
+  .b-card {
+    border-radius: 0px 0px 20px 20px;
+  }
+
+  .portfolio-work-detail-text p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .portfolio-work-detail-google-text p,
+  .portfolio-work-detail-web-text p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .portfolio-work-detail-google-image {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .portfolio-work-detail-google-image img {
+    border-radius: 20px;
+  }
+
+  .portfolio-work-detail-google-image video {
+    border-radius: 20px;
+  }
+
+  .portfolio-work-detail-web-vedio video {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+  }
+}
+
+/* .portfolio-dk-container-stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.portfolio-dk-container-stat-1, .portfolio-dk-container-stat-3,.portfolio-dk-container-stat-5 {
+    display: flex;
+
+    justify-content: center;
+    width: 80%;
+    padding: 50px 0px ;
+    border-left: #f0c85b 2px solid;
+    border-bottom: #f0c85b 2px solid;
+    border-radius:0px  30px;
+
+
+
+
+
+} 
+.portfolio-dk-container-stat-2,.portfolio-dk-container-stat-4, .portfolio-dk-container-stat-6 {
+    display: flex;
+
+    justify-content: center;
+    width: 80%;
+    flex-direction: row-reverse;
+    padding: 50px 0px ;
+    border-right: #f0c85b 2px solid;
+    border-bottom: #f0c85b 2px solid;
+    border-radius:0px 0px 30px ;
+
+
+
+}
+
+.portfolio-dk-container-stat img {
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
+
+.portfolio-dk-container-stat-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+
+}
+
+.portfolio-dk-container-stat-1-text h2 {
+    font-size: 3.5rem;
+    color: #f0c85b;
+
+}
+
+.portfolio-dk-container-stat-1-text h6 {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+
+}
+
+.portfolio-dk-container-stat-1-text p {
+    font-size: 1rem;
+
+
+}
+.portfolio-dk-container-logo{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.portfolio-dk-container-logo img{
+    background-color: #fff;
+    object-fit: cover;
+    
+}
+.portfolio-dk-container-color-wheel{
+    
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 50px 0px 50px;
+    border-radius: 50px 50px 0px 0px;
+}
+.portfolio-dk-container-color-wheel video{
+width: 50%;
+height: 50%;
+background-color:  #fff;
+border: none;
+border-radius: 50px;
+
+}
+.portfolio-dk-container-color-wheel-text{
+    color: #072e44;
+    width: 50%;
+}
+.portfolio-dk-container-color-wheel-text h2{
+    font-size: 3.5rem;
+}
+.portfolio-dk-container-color-wheel-text h6{
+    font-size: 1.5rem;
+}
+.portfolio-dk-container-color-wheel-text p{
+    font-size: 1rem;
+}
+.portfolio-dk-container-mockup{
+    margin:  0px 50px;
+} */

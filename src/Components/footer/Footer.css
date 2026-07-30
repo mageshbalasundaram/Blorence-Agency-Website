@@ -1,0 +1,449 @@
+.footer-con {
+  clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.footer-scroll-container {
+  overflow: hidden;
+}
+
+.footer-scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+}
+
+.footer-scroll-text span {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+/* footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: 450px;
+
+
+
+
+}
+
+
+.footer-scroll-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: #e8fec7;
+   
+}
+
+.footer-scroll-text {
+
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+.footer-scroll-text span {
+    display: inline-block;
+    font-size: 3rem;
+    color: #00437a;
+    text-align: center;
+}
+
+
+.footer-text {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.contact {
+    width: 300px;
+}
+
+.menu {
+    width: 200px;
+
+}
+
+.social {
+    width: 200px;
+}
+
+.footer-con {
+    position: relative;
+    height: 450px;
+    background: #00437a;
+
+
+
+}
+
+.footer-content {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.logo-footer {
+    margin-bottom: 50px;
+}
+
+.logo-footer a {
+    display: flex;
+
+}
+
+.logo-footer a img {
+    width: 150px;
+    height: 85px;
+
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+.logo-text p {
+    color: #e8fec7;
+}
+
+.logo-text span {
+    color: #e8fec7;
+}
+
+.footer-logo-text {
+    font-size: 18px;
+    color: #e8fec7;
+}
+
+
+.phone-no {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.phone-no-copy {
+    display: flex;
+    align-items: center;
+}
+
+.phone-no-copy .copy-indicator {
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.phone-no-copy img {
+    margin-left: 10px;
+    scale: 0.8;
+    transition: all 0.2s ease-out;
+}
+
+.phone-no-copy img:hover {
+    scale: 1;
+}
+
+.phone-no-copy img:active {
+    scale: 0.8;
+}
+
+.mail-id {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.mail-id img {
+    margin-left: 10px;
+    scale: 0.8;
+    transition: all 0.2s ease-out;
+}
+
+.mail-id img:hover {
+    scale: 1;
+}
+
+.mail-id img:active {
+    scale: 0.8;
+}
+
+.mail-id .copy-indicator {
+    position: absolute;
+    font-size: 12px;
+    margin-bottom: 50px;
+    right: 0;
+}
+
+.copy-indicator {
+
+    color: #e8fec7;
+    opacity: 0;
+    animation: fadeInOut 2s ease forwards;
+    transform: translateX(-50%);
+}
+
+.menu a,
+.social a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.menu a::after,
+.social a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+
+
+    background-color: #e8fec7;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+
+.menu a:hover::after,
+.social a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.tnc {
+    transition: all 0.2s ease-in-out;
+}
+
+.tnc a:hover {
+    color: #ceee9b;
+} */
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px) translateX(-50%);
+  }
+
+  10% {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translateY(0) translateX(-50%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-10px) translateX(-50%);
+  }
+}
+
+/* .contact {
+    font-size: 20px;
+    color: #e8fec7;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #e8fec7;
+
+}
+
+.terms-and-condition {
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    gap: 5px;
+}
+
+
+.title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e8fec7;
+    margin-bottom: 5px;
+    text-decoration: underline;
+
+}
+
+.menu ul li,
+.social ul li {
+    font-size: 20px;
+    color: #e8fec7;
+    margin-bottom: 5px;
+
+}
+
+.footer-text {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .menu,
+    .social {
+        width: 550px;
+    }
+
+    .menu ul,
+    .social ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu a,
+    .social a {
+        font-size: 16px;
+        margin: 0px 5px;
+    }
+
+    .phone-no,
+    .mail-id {
+        font-size: 16px;
+    }
+
+    .address {
+        display: none;
+    }
+
+    .title {
+        font-size: 16px;
+
+
+    }
+
+
+    footer {
+        height: 650px;
+    }
+    .footer-con{
+        height: 700px;
+    }
+
+
+}
+
+@media only screen and (max-width: 640px) {
+
+
+
+    footer {
+        height: 650px;
+    }
+
+    .menu {
+        width: 300px;
+    }
+
+    .social {
+        width: 300px;
+    }
+
+    .footer-text {
+        margin: 5px 0px 0px;
+    }
+
+    .address {
+        display: none;
+    }
+
+    .phone-no,
+    .mail-id {
+        font-size: 14px;
+    }
+
+    .menu,
+    .social {
+        margin-top: 5px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menu a,
+    .social a {
+        font-size: 14px;
+        margin: 0px 5px;
+    }
+
+    .social ul {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .copyright {
+        flex-direction: column;
+        padding-top: 5px;
+        border: none;
+    }
+
+    .cr {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .tnc {
+        font-size: 10px;
+
+    }
+
+    .title {
+        font-size: 14px;
+        margin-bottom: 2px;
+
+    }
+
+    .footer-scroll-container {
+        margin-bottom: 2px;
+    }
+
+    .footer-scroll-text span {
+        font-size: 16px;
+    }
+
+} */

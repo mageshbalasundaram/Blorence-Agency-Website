@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208.13 17.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #938aba;
+      }
+
+      .cls-2 {
+        fill: #f56181;
+      }
+
+      .cls-3 {
+        fill: #ffe164;
+      }
+
+      .cls-4 {
+        fill: #f4c645;
+      }
+
+      .cls-5 {
+        fill: #f9cec6;
+      }
+
+      .cls-6 {
+        fill: #b9b2ce;
+      }
+
+      .cls-7 {
+        fill: #eaaaa2;
+      }
+
+      .cls-8 {
+        fill: #1b135c;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <g>
+          <rect class="cls-3" x="25" y="0" width="99.61" height="13.1"/>
+          <rect class="cls-4" x="25" y="13.1" width="99.61" height="4.81"/>
+        </g>
+        <g>
+          <g>
+            <polygon class="cls-5" points="10.4 5.23 25 0 25 13.1 10.4 10.68 10.4 5.23"/>
+            <polygon class="cls-7" points="25 13.1 25 17.91 10.4 12.68 10.4 10.68 25 13.1"/>
+          </g>
+          <polygon class="cls-8" points="10.4 5.23 10.4 12.68 0 8.96 10.4 5.23"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <rect class="cls-3" x="91.91" y="0" width="94.09" height="13.1"/>
+          <rect class="cls-4" x="91.91" y="13.1" width="94.09" height="4.81"/>
+        </g>
+        <g>
+          <g>
+            <path class="cls-8" d="m207.83,6.55c.19.77.3,1.57.3,2.4,0,4.95-3.54,8.95-7.91,8.95h-3.16v-4.81h3.16c3.63,0,6.68-2.77,7.61-6.55Z"/>
+            <path class="cls-2" d="m207.83,6.55c-.93,3.78-3.98,6.55-7.61,6.55h-3.16V0h3.16c3.63,0,6.68,2.78,7.61,6.55Z"/>
+          </g>
+          <g>
+            <rect class="cls-6" x="194.12" y="0" width="2.94" height="13.1"/>
+            <rect class="cls-1" x="194.12" y="13.1" width="2.94" height="4.81"/>
+            <rect class="cls-1" x="185.99" y="13.1" width="2.86" height="4.81"/>
+            <rect class="cls-6" x="185.99" y="0" width="2.86" height="13.1"/>
+            <rect class="cls-1" x="188.84" y="13.1" width="5.27" height="4.81"/>
+            <rect class="cls-1" x="188.84" y="0" width="5.27" height="13.1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

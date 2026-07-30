@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* HorizontalScroll.css */
+.scroll-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 300px;
+  width: 100vw;
+}
+
+.scroller {
+  display: flex;
+  gap: 20px;
+  white-space: wrap;
+}
+
+.logo-wrapper {
+  position: relative;
+  height: auto;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  box-shadow: rgba(17, 17, 26, 0.1) 1px 2px 1px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgba(17, 17, 26, 0.1);
+}
+.logo-wrapper:HOVER{
+  box-shadow: rgba(17, 17, 26, 0.1) 1px 2px 10px;
+}
+
+.client-logo {
+  width: 200px;
+  height: 100px;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 120px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  border: 1px solid #00000014;
+  border-radius: 20px;
+  opacity: 0;
+  transform: scale(0.7);
+  transition: all 0.3s ease;
+  pointer-events: none;
+  font-size: 16px;
+  
+  font-family: inter;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+
+  border-style: solid;
+  border-width: 20px 20px 0 20px;
+  border-color: #ffffff transparent transparent transparent;
+  left: 80%;
+  transform: translateX(-50%) translateY(100%);
+}
+.client-name {
+  text-align: right;
+  color: #424242;
+  font-weight: bold;
+}
+.client-position {
+  font-size: 12px;
+  text-align: right;
+  color: #424242;
+  font-weight: 300;
+}
+.logo-wrapper:hover .tooltip {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.scroll-text-title {
+  width: 1200px;
+  text-align: left;
+  padding-bottom: 50px;
+}
+.scroll-text-title h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
+  text-transform: uppercase;
+}
+.scroll-text-title p {
+  font-size: 20px;
+  color: #666666;
+  clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+ padding: 70px 50px;
+  border-radius: 50px;
+
+}
+
+.know-about-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .scroll-text h3 {
+    font-size: 24px;
+  }
+  .scroll-text p {
+    font-size: 16px;
+  }
+  .logo-wrapper {
+    width: 300px;
+  }
+  .scroller {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .know-about-con {
+    margin: 0px;
+    border-radius: 20px;
+  }
+  .testimonial {
+    padding: 10px 10px;
+    height: auto;
+  }
+  .scroll-text-title {
+    margin-left: 10px;
+  }
+  .scroll-text-title h3 {
+    font-size: 1.5rem;
+  }
+  .scroll-text-title p {
+    font-size: 0.9rem;
+  }
+
+  .scroll-container {
+    height: 200px;
+  }
+  .client-logo {
+    width: 120px;
+    height: 60px;
+  }
+
+  .tooltip {
+    bottom: 70px;
+    transform: scale(1);
+    opacity: 1;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .logo-wrapper {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .scroller {
+    display: flex;
+    gap: 15px;
+  }
+  .client-position {
+    font-size: 8px;
+  }
+  .triangle::before {
+    border-width: 12px 12px 0 12px;
+  }
+}

@@ -1,0 +1,14 @@
+.form-title {
+  cursor: pointer;
+}
+.form-title span {
+  z-index: 2;
+}
+.form-pencil {
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+.form-title:hover .form-pencil {
+  width: 180px;
+  left: 25rem;
+}

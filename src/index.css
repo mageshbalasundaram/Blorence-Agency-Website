@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #e8fec7;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.cssbuttons-io-button {
+  background: #1182df;
+  color: white;
+
+  padding: 0.35em;
+  padding-left: 1.2em;
+
+  border-radius: 10em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow:
+    0 0 1em rgba(33, 159, 255, 0.3),
+    0 0 1em hsla(216, 100%, 69%, 0.3);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 10em;
+  right: 0.3em;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #1182df;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.9);
+}
+
+/* // <uniquifier> : Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700
+// <width>: Use a value from 100 to 125 */
+
+/* .kalnia-<uniquifier> {
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+} */

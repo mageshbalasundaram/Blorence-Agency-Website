@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /user-data/
+Allow: /
+
+Sitemap: https://www.blorencedesign.com/sitemap.xml

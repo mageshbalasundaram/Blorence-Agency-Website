@@ -1,0 +1,73 @@
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #e8fec7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.loading-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  position: relative;
+}
+
+.loading-logo {
+  opacity: 0;
+
+  width: 200px;
+  /* Adjust the size as needed */
+  height: auto;
+}
+
+.loading-text {
+  color: #000000;
+  font-size: 2.3rem;
+  opacity: 0;
+  line-height: 2rem;
+  font-family: "Julius Sans One", sans-serif !important;
+}
+
+.loading-number-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* Set the height according to your design */
+}
+
+.loading-number {
+  color: #000000;
+  font-size: 9rem;
+  white-space: nowrap;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media only screen and (max-width: 640px) {
+  .loading-logo {
+    width: 100px;
+    /* Adjust the size as needed */
+  }
+
+  .loading-text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .loading-number {
+    font-size: 2rem;
+  }
+}

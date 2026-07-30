@@ -1,0 +1,310 @@
+.career-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.career-container-hero-text {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  gap: 10px;
+}
+
+.career-container-hero {
+  width: 100%;
+}
+
+.career-container-hero h6 {
+  font-size: 18px;
+  color: #666;
+  font-weight: 500;
+}
+
+.career-container-hero h3 {
+  font-size: 58px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.career-container-hero p {
+  font-size: 24px;
+  color: #666;
+  width: 60%;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+  position: relative;
+
+  padding: 10px 24px;
+  font-size: 18px;
+  color: #1182df;
+  border: 2px solid #1182df;
+  border-radius: 34px;
+  background-color: transparent;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  overflow: hidden;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  scale: 0;
+  z-index: -1;
+  background-color: #1182df;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.button:hover::before {
+  scale: 5;
+}
+
+.button:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98, 0.4);
+}
+
+.button:active {
+  scale: 1;
+}
+
+.career-opening-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  flex-direction: column;
+  background: #f4f4f4;
+}
+
+.career-openings-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.career-openings-title h2 {
+  font-size: 24px;
+  text-align: left;
+}
+
+.career-openings-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.career-openings-content h2 {
+  font-size: 50px;
+}
+
+.career-openings-content h3 {
+  font-size: 32px;
+}
+
+.career-openings-content p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.career-openings-content button {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0077b5;
+  border-radius: 10px;
+  padding: 5px 20px;
+  transition: all 0.2s ease-in;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #0077b5;
+}
+
+.career-openings-content button img {
+  width: 28px;
+  height: 28px;
+}
+
+.career-openings-content button:hover {
+  color: #fff;
+  background: #0077b5;
+  scale: 1.1;
+}
+
+.career-openings-content button:active {
+  scale: 1;
+}
+
+.how-to-apply {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-to-apply h2 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.para {
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.how-to-apply a {
+  font-size: 1.5rem;
+  color: #1182df;
+}
+
+.how-to-apply a:hover {
+  text-decoration: underline;
+}
+
+.form {
+  height: 100vh;
+  width: 100vw;
+  padding-left: 20px;
+  background-color: #e8fec7;
+  color: #00437a;
+}
+
+.form h1 {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 120px;
+  letter-spacing: -15px;
+  transition: all 0.2s ease-out;
+}
+
+.form h1:hover {
+  letter-spacing: 1px;
+}
+
+.hover-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.message-box {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease-in-out;
+  white-space: wrap;
+  border-radius: 20px;
+}
+.message-box-2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease-in-out;
+  white-space: wrap;
+  border-radius: 10px;
+}
+.message-tail {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .career-container-hero-text {
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .career-container-hero h6 {
+    font-size: 16px;
+  }
+
+  .career-container-hero h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .career-container-hero p {
+    font-size: 14px;
+
+    width: 100%;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 7px 14px;
+  }
+  .message-box-2 {
+    display: none;
+  }
+
+  .how-to-apply {
+    height: 80vh;
+
+    width: 90%;
+  }
+
+  .how-to-apply h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .how-to-apply p {
+    font-size: 1rem;
+  }
+
+  .how-to-apply a {
+    font-size: 1.1rem;
+    color: #1182df;
+  }
+  .how-to-apply-text-info p {
+    font-size: 0.7rem;
+  }
+}
